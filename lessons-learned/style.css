@@ -1,0 +1,115 @@
+body {
+  background-color: rgb(253, 251, 251);
+  font-family: Ysabeau, sans-serif;
+}
+
+header {
+  background: hsla(110, 30%, 52%, 1);
+  background: radial-gradient(circle, hsla(110, 30%, 52%, 1) 0%, hsla(170, 42%, 71%, 1) 100%);
+  background: radial-gradient(circle, hsla(110, 30%, 52%, 1) 0%, hsla(170, 42%, 71%, 1) 100%);
+  background: radial-gradient(circle, hsla(110, 30%, 52%, 1) 0%, hsla(170, 42%, 71%, 1) 100%);
+  filter: progid: dximagetransform.microsoft.gradient(startColorstr='#6ca960', endColorstr='#96d4ca', GradientType=1);
+  position: fixed;
+  top: 0;
+  padding: 10px;
+  text-align: center;
+  font-size: 30px;
+  width: 98%;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+table,
+th,
+td {
+  border: 2px solid black;
+  border-collapse: separate;
+  margin: auto;
+}
+
+li:hover {
+  background-color: rgb(134, 221, 134);
+}
+
+li {
+  font-size: 16pt;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  line-height: 0.8cm;
+}
+
+#minha_foto {
+  border-radius: 8px;
+  margin-top: 200px;
+
+}
+
+.lado-esquerdo {
+  display: inline-block;
+  width: 1010px;
+  height: 200px;
+  padding: 20px;
+  margin: 10px;
+  background: hsla(110, 30%, 52%, 1);
+  background: linear-gradient(90deg, hsla(110, 30%, 52%, 1) 0%, hsla(170, 42%, 71%, 1) 100%);
+  background: linear-gradient(90deg, hsla(110, 30%, 52%, 1) 0%, hsla(170, 42%, 71%, 1) 100%);
+  background: linear-gradient(90deg, hsla(110, 30%, 52%, 1) 0%, hsla(170, 42%, 71%, 1) 100%);
+  filter: progid: dximagetransform.microsoft.gradient(startColorstr='#6CA960', endColorstr='#96D4CA', GradientType=1);
+}
+
+h2 {
+  font-size: 26pt;
+  font-family: sans-serif;
+  color: rgb(8, 83, 8);
+  line-height: 1cm;
+}
+
+p {
+  font-size: 14pt;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  line-height: 0.6cm;
+}
+
+.lado-direito {
+  display: inline-block;
+  width: 700px;
+  height: 165px;
+  padding: 20px;
+  background: hsla(110, 30%, 52%, 1);
+  background: linear-gradient(90deg, hsla(110, 30%, 52%, 1) 0%, hsla(170, 42%, 71%, 1) 100%);
+  background: linear-gradient(90deg, hsla(110, 30%, 52%, 1) 0%, hsla(170, 42%, 71%, 1) 100%);
+  background: linear-gradient(90deg, hsla(110, 30%, 52%, 1) 0%, hsla(170, 42%, 71%, 1) 100%);
+  filter: progid: dximagetransform.microsoft.gradient(startColorstr='#6CA960', endColorstr='#96D4CA', GradientType=1);
+}
+
+.button {
+  background-color: #2f8032;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+footer {
+  clear: both;
+  background: hsla(110, 30%, 52%, 1);
+  background: radial-gradient(circle, hsla(110, 30%, 52%, 1) 0%, hsla(170, 42%, 71%, 1) 100%);
+  background: radial-gradient(circle, hsla(110, 30%, 52%, 1) 0%, hsla(170, 42%, 71%, 1) 100%);
+  background: radial-gradient(circle, hsla(110, 30%, 52%, 1) 0%, hsla(170, 42%, 71%, 1) 100%);
+  filter: progid: dximagetransform.microsoft.gradient(startColorstr='#6ca960', endColorstr='#96d4ca', GradientType=1);
+  position: relative;
+  bottom: 0;
+  padding: 10px;
+  text-align: center;
+  width: 99%;
+}
